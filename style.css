@@ -1,0 +1,11 @@
+.body{
+    background-image: linear-gradient(to right, rgba(229, 238, 146, 0.685),white,rgba(245, 185, 135, 0.753));
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
