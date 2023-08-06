@@ -5,22 +5,22 @@ function submit()
     if(name=="")
     {
         document.getElementById('floatingInput').focus();
-        document.getElementById('msg').innerHTML="Please write the Username";
-        return false;
+        document.getElementsByClassName('msg')[0].innerHTML="Please write the Username";
+        //return false;
     }
-        else
+        if(name!="")
         {
-            document.getElementById('msg').remove();
+            document.getElementsByClassName('msg')[0].innerHTML="";
         }
     if(pass=="")
     {
         document.getElementById('floatingPassword').focus();
-        document.getElementById('msg').innerHTML="Please write the Password";
-        return false;
+        document.getElementsByClassName('msg')[1].innerHTML="Please write the Password";
+        //return false;
     }
-        else
+        if(pass!="")
         {
-            document.getElementById('msg').remove();
+            document.getElementsByClassName('msg')[1].innerHTML="";
         }
 
 }
