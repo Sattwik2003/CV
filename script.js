@@ -1,26 +1,13 @@
-function submit()
-{
-    var name=document.getElementById('floatingInput').value;
-    var pass=document.getElementById('floatingPassword').value;
-    if(name=="")
-    {
-        document.getElementById('floatingInput').focus();
-        document.getElementsByClassName('msg')[0].innerHTML="Please write the Username";
-        //return false;
-    }
-        if(name!="")
-        {
-            document.getElementsByClassName('msg')[0].innerHTML="";
-        }
-    if(pass=="")
-    {
-        document.getElementById('floatingPassword').focus();
-        document.getElementsByClassName('msg')[1].innerHTML="Please write the Password";
-        //return false;
-    }
-        if(pass!="")
-        {
-            document.getElementsByClassName('msg')[1].innerHTML="";
-        }
+const signUpBUtton = document.getElementById("signUp");
+const signInBUtton = document.getElementById("signIn");
+const container = document.getElementById("container");
 
-}
+// switch between login and signup
+
+signUpBUtton.addEventListener("click", () => {
+  container.classList.add("right-panel-active");
+});
+
+signInBUtton.addEventListener("click", () => [
+  container.classList.remove("right-panel-active")
+]);
