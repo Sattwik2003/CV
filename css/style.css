@@ -6,7 +6,7 @@
   padding: 0;
 }
 
-body {
+#container {
   display: grid;
   place-items: center;
   font-family: "Nunito", sans-serif;
@@ -74,7 +74,7 @@ input {
 /* input fields */
 
 /* button */
-button {
+.button {
   text-decoration: none;
   position: relative;
   border: none;
@@ -93,7 +93,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   animation: ani 8s linear infinite;
   border: none;
 }
@@ -277,5 +277,5 @@ button:active {
   cursor: pointer;
   position: relative;
   left: 90px;
-  margin-top: -2%;
+  margin-top: -20%;
 }

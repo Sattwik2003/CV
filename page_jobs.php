@@ -12,10 +12,10 @@
 .cards{
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap:15px;
 }
-body{
-  background-image: linear-gradient(90deg, rgba(229, 238, 146, 0.685),white,rgba(245, 185, 135, 0.753));
-}
+
     </style>
 </head>
 <body>

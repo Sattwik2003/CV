@@ -1,16 +1,4 @@
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Login page</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://kit.fontawesome.com/7b39153ed3.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
+<?php include("header.php") ?>
   <div class="container" id="container">
 
     <!-- sign Up form section start-->
@@ -36,7 +24,7 @@
         <h1>Login</h1>
         <span>Login In with your Account</span>
         <!-- input fields start -->
-        <div class="form-floating">
+        <div class="form-floating mb-3">
           <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
           <label for="floatingInput">Email address</label>
         </div>
@@ -45,7 +33,7 @@
           <label for="floatingPassword">Password</label>
         </div>
         <span>Forgot your <span class="forgot">password?</span></span>
-        <button>Login</button>
+        <button class="button">Login</button>
         <!-- input fields end -->
       </form>
     </div>
@@ -61,15 +49,10 @@
         <div class="overlay-pannel overlay-right">
           <h1>Create Account</h1>
           <p>New to our Website?</p>
-          <button id="signUp" class="overBtn">Sign Up</button>
+          <button id="signUp" class="overBtn button">Sign Up</button>
         </div>
       </div>
     </div>
     <!-- overlay section start-->
   </div>
-  <script src="script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
-</body>
-
-</html>
+  <?php include("footer.php") ?>
