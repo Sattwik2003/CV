@@ -14,41 +14,34 @@
   background-image: linear-gradient(90deg, rgba(229, 238, 146, 0.685),white,rgba(245, 185, 135, 0.753));
    
 }
-/* headings */
-h1 {
+.headings{
   font-weight: bold;
   margin: 0;
   font-size: 20px;
 }
-/* headings */
-/* paragraphs */
-p {
+.p{
   font-size: 0.9em;
   font-weight: 200;
   line-height: 1.3em;
   letter-spacing: 0.1em;
   margin: 20px 0;
 }
-/* paragraphs */
-/* span tags */
-span {
+.span{
   font-size: 14px;
   color: #a9a9a9;
 }
-span .forgot {
+.forgot{
   color: #c850c0;
   cursor: pointer;
 }
 /* span tags */
-a {
+/*a {
   color: #333;
   font-size: 14px;
   text-decoration: none;
   margin: 15px 0;
-}
-
-/* form */
-form {
+}*/
+.form {
   background-color: transparent;
   display: flex;
   align-items: center;
@@ -58,9 +51,7 @@ form {
   height: 100%;
   text-align: center;
 }
-/* form */
-/* input fields */
-input {
+.input {
   background-color: #ecececdd;
   border: none;
   font-size: 14px;
@@ -71,9 +62,6 @@ input {
   outline: none;
   border-radius: 5px;
 }
-/* input fields */
-
-/* button */
 .button {
   text-decoration: none;
   position: relative;
@@ -108,7 +96,7 @@ input {
   }
 }
 
-button:before {
+.button:before {
   content: "";
   position: absolute;
   top: -5px;
@@ -122,17 +110,13 @@ button:before {
   transition: 1s;
 }
 
-button:hover::before {
+.button:hover::before {
   filter: blur(10px);
 }
 
-button:active {
+.button:active {
   background: linear-gradient(90deg, #4158d0, #f441a5, #ffcc70, #4158d0);
 }
-
-/* button */
-
-/* container */
 .container {
   background-color: #ffffff;
   border-radius: 2em;
@@ -161,9 +145,6 @@ button:active {
   z-index: 2;
   opacity: 1;
 }
-/* container */
-
-/* active container */
 .container.right-panel-active .sign_in {
   transform: translateX(100%);
   opacity: 0;
@@ -186,10 +167,6 @@ button:active {
     z-index: 5;
   }
 }
-
-/* active container */
-
-/* overlay container*/
 .overlay-container {
   position: absolute;
   top: 0;
@@ -240,7 +217,6 @@ button:active {
   right: 0;
   transform: translateX(0);
 }
-/* container switch */
 .container.right-panel-active .overlay-container {
   transform: translateX(-100%);
 }
@@ -253,11 +229,6 @@ button:active {
 .container.right-panel-active .overlay-right {
   transform: translateX(20%);
 }
-/* container switch */
-
-/* overlay container */
-
-/* social container */
 .social-container {
   margin: 20px 0;
 }
@@ -272,10 +243,12 @@ button:active {
   width: 40px;
   cursor: pointer;
 }
-/* social container */
 #eye{
   cursor: pointer;
   position: relative;
   left: 90px;
-  margin-top: -20%;
+  margin-top: -16%;
+}
+#msg{
+  color: red;
 }
