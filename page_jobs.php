@@ -15,14 +15,20 @@
   flex-wrap: wrap;
   gap:15px;
 }
+.photo{
+  width: 10vw;
+  height: 10vh;
+}
 
     </style>
 </head>
 <body>
-    <div style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;"><h1>JOBS</h1></div>
+    <div style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;"><u><h1>JOBS</h1></u></div>
     <div class="cards">
     <div class="card" style="width: 18rem;margin-left: 10px;">
+    <div class=photo>
         <img src="Photos/Editor.jpg" class="card-img-top" alt="...">
+        </div>
         <div class="card-body">
           <h5 class="card-title">Editor</h5>
           <p class="card-text">Job Description</p>
@@ -30,7 +36,9 @@
         </div>
       </div>
       <div class="card" style="width: 18rem;">
+      <div class=photo>
         <img src="Photos/Graphic_designer.webp" class="card-img-top" alt="...">
+      </div>
         <div class="card-body">
           <h5 class="card-title">Graphic Designer</h5>
           <p class="card-text">Job Description</p>
@@ -38,7 +46,9 @@
         </div>
       </div>
       <div class="card" style="width: 18rem;">
+      <div class=photo>
         <img src="Photos/Data_entry.webp" class="card-img-top" alt="...">
+      </div>
         <div class="card-body">
           <h5 class="card-title">Data Entry</h5>
           <p class="card-text">Job Description</p>
@@ -46,7 +56,9 @@
         </div>
       </div>
       <div class="card" style="width: 18rem;">
+      <div class=photo>
         <img src="Photos/developer.avif" class="card-img-top" alt="...">
+      </div>
         <div class="card-body">
           <h5 class="card-title">Developer</h5>
           <p class="card-text">Job Description</p>
