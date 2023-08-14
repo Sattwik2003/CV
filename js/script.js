@@ -121,3 +121,12 @@ removeFileButton.addEventListener("click", () => {
 	document.querySelector(".label").innerHTML = `or <span class="browse-files"> <input type="file" class="default-file-input"/> <span class="browse-files-text">browse file</span> <span>from device</span> </span>`;
 	uploadButton.innerHTML = `Upload`;
 });
+
+function showfront(event){
+	if(event.target.files.length > 0){
+		var src = URL.createObjectURL(event.target.files[0]);
+		var preview = document.getElementById("change");
+		preview.src = src;
+		
+	}
+}

@@ -382,3 +382,61 @@
 	padding: 7.5px 50px;
 	cursor: pointer;
 }
+.body_jobform {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.awesome-form {
+  background: #ffffff;
+  width: 100%;
+  max-width: 400px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.awesome-form:hover {
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+.awesome-form h2 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.awesome-form .form-control {
+  background: none;
+  border: solid 1px black;
+  border-radius: 0;
+  box-shadow: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.awesome-form .form-control:focus {
+  border-color: #007BFF;
+  box-shadow: 0px 0px 5px rgba(0,123,255,0.5);
+  outline: none;
+}
+
+ .awesome-form .btn {
+  border-radius: 5px;
+  background: #007BFF;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+ .awesome-form .btn:hover {
+  background: #0056b3;
+}
+.button_job{
+  margin-top: 10%;
+  display:flex;
+  justify-content: center;
+}
