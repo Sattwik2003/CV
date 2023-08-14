@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <style>
@@ -15,15 +16,17 @@
   flex-wrap: wrap;
   gap:15px;
 }
-.photo{
-  width: 10vw;
-  height: 10vh;
+.card-img-top{
+  object-fit: cover;
+  width: 286px;
+  height: 200px;
 }
 
     </style>
 </head>
 <body>
     <div style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;"><u><h1>JOBS</h1></u></div>
+    <i class="fa-solid fa-filter"></i>
     <div class="cards">
     <div class="card" style="width: 18rem;margin-left: 10px;">
     <div class=photo>
