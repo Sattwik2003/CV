@@ -4,9 +4,58 @@
       <form action="#" class="form">
         <h1 class="headings">Create An Account</h1>
         <span class="span">Use email for registration</span>
-        <input type="text" placeholder="User Name" class="input">
-        <input type="email" placeholder="Email" class="input">
-        <input type="password" placeholder="Password" class="input">
+        <div class="form-container" enctype='multipart/form-data'>
+          <div class="upload-files-container">
+		        <div class="drag-file-area">
+			      <span class="material-icons-outlined upload-icon"> file_upload </span>
+			      <h4 class="dynamic-message"> Drag & drop any file here </h4>
+			      <label class="label"> or <span class="browse-files"> <input type="file" class="default-file-input"/> <span class="browse-files-text">browse file</span> <span>from device</span> </span> </label>
+		      </div>
+		      <span class="cannot-upload-message"> <span class="material-icons-outlined">error</span> Please select a file first <span class="material-icons-outlined cancel-alert-button">cancel</span> </span>
+	    	  <div class="file-block">
+		  	   <div class="file-info"> <span class="material-icons-outlined file-icon">description</span> <span class="file-name"> </span> | <span class="file-size">  </span> </div>
+		  	    <span class="material-icons remove-file-icon">delete</span>
+		  	    <div class="progress-bar"> </div>
+		       </div>
+		      <button type="button" class="upload-button"> Upload </button>
+	       </div>
+        </div>
+        <div class="form-floating-sm mb-2">
+        <label for="floatingSelect">Category</label>
+      <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+           <option selected>Select Any One</option>
+           <option value="1">One</option>
+           <option value="2">Two</option>
+           <option value="3">Three</option>
+       </select>      
+    </div>
+    <label for="exampleDataList" class="form-label"><b>Skill Set</b></label>
+            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Write your skill here...">
+               <datalist id="datalistOptions">
+                 <option value="San Francisco">
+                 <option value="New York">
+                 <option value="Seattle">
+                 <option value="Los Angeles">
+                 <option value="Chicago">
+               </datalist>
+               <label for="exampleDataList" class="form-label"><b>Preferred Location</b></label>
+            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Write the location here...">
+               <datalist id="datalistOptions">
+                 <option value="Kolkata">
+                 <option value="Mumbai">
+                 <option value="Bangalore">
+                 <option value="Gujrat">
+                 <option value="Pakistan">
+               </datalist>
+               <div class="form-floating-sm mb-2">
+        <label for="floatingSelect">Experience</label>
+      <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+           <option selected>Select Any One</option>
+           <option value="1">One</option>
+           <option value="2">Two</option>
+           <option value="3">Three</option>
+       </select>      
+    </div>
         <button class="button">Create Account</button>
       </form>
     </div>
