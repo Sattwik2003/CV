@@ -9,10 +9,43 @@ signUpBUtton.addEventListener("click", () => {
 signInBUtton.addEventListener("click", () => [
   container.classList.remove("right-panel-active")
 ]);
+
 document.getElementById('eye').remove();
 function pass(){
   document.getElementById('eye').add();
 }
+
+
+function login(){
+	var email=document.getElementById('email').value;
+	var pass=document.getElementById('password').value;
+	if(email=="")
+	{
+		document.getElementById('email').focus();
+		document.getElementById('msg').innerHTML="Please Write Email";
+	}
+	if(pass=="")
+	{
+		document.getElementById('pass').focus();
+		document.getElementById('msg').innerHTML="Please Correct Password";
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 var isAdvancedUpload = function() {
   var div = document.createElement('div');
