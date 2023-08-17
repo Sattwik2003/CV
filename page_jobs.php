@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <style>
@@ -12,17 +13,25 @@
 .cards{
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap:15px;
 }
-body{
-  background-image: linear-gradient(90deg, rgba(229, 238, 146, 0.685),white,rgba(245, 185, 135, 0.753));
+.card-img-top{
+  object-fit: cover;
+  width: 286px;
+  height: 200px;
 }
+
     </style>
 </head>
 <body>
-    <div style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;"><h1>JOBS</h1></div>
+    <div style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;"><u><h1>JOBS</h1></u></div>
+    <i class="fa-solid fa-filter"></i>
     <div class="cards">
     <div class="card" style="width: 18rem;margin-left: 10px;">
+    <div class=photo>
         <img src="Photos/Editor.jpg" class="card-img-top" alt="...">
+        </div>
         <div class="card-body">
           <h5 class="card-title">Editor</h5>
           <p class="card-text">Job Description</p>
@@ -30,7 +39,9 @@ body{
         </div>
       </div>
       <div class="card" style="width: 18rem;">
+      <div class=photo>
         <img src="Photos/Graphic_designer.webp" class="card-img-top" alt="...">
+      </div>
         <div class="card-body">
           <h5 class="card-title">Graphic Designer</h5>
           <p class="card-text">Job Description</p>
@@ -38,7 +49,9 @@ body{
         </div>
       </div>
       <div class="card" style="width: 18rem;">
+      <div class=photo>
         <img src="Photos/Data_entry.webp" class="card-img-top" alt="...">
+      </div>
         <div class="card-body">
           <h5 class="card-title">Data Entry</h5>
           <p class="card-text">Job Description</p>
@@ -46,7 +59,9 @@ body{
         </div>
       </div>
       <div class="card" style="width: 18rem;">
+      <div class=photo>
         <img src="Photos/developer.avif" class="card-img-top" alt="...">
+      </div>
         <div class="card-body">
           <h5 class="card-title">Developer</h5>
           <p class="card-text">Job Description</p>
