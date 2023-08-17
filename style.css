@@ -291,10 +291,34 @@ button:active {
   transform: translate(-50%,-50%);
   border-collapse: collapse;
   width: 800px;
-  height: 200px;
+  height: 139px;
   border: 1px solid #bdc3c7;
   box-shadow: 2px 2px 12px rgba(0,0,0,0.2), -1px -1px 8px rgba(0,0,0,0.2);
   }
 
 
-
+h2{
+  font-size: 35px;
+  margin-top: -69%;
+  font-style: italic;
+  color: darkgreen;
+  
+}
+tr{
+  transition: all .2s ease-in;
+  cursor: pointer;
+}
+th,td{
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+#header3{
+  background-color: #16a085;
+  color: #fff;
+}
+tr:hover{
+  background-color: #f5f5f5;
+  transform: scale(1.0);
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.2), -1px -1px 8px rgba(0,0,0,0.2);
+}
