@@ -118,7 +118,7 @@
 .button:active {
   background: linear-gradient(90deg, #4158d0, #f441a5, #ffcc70, #4158d0);
 }
-.container {
+/*.container {
   background-color: #ffffff;
   border-radius: 2em;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -127,7 +127,7 @@
   width: 650px;
   max-width: 100%;
   min-height: 550px;
-}
+}*/
 .form {
   position: absolute;
   top: 0;
@@ -381,13 +381,13 @@
   }
 
 
-h2{
+/*h2{
   font-size: 35px;
   margin-top: -69%;
   font-style: italic;
   color: darkgreen;
   
-}
+}*/
 tr{
   transition: all .2s ease-in;
   cursor: pointer;
