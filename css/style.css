@@ -406,3 +406,20 @@ tr:hover{
   transform: scale(1.0);
   box-shadow: 2px 2px 12px rgba(0,0,0,0.2), -1px -1px 8px rgba(0,0,0,0.2);
 }
+
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+  
+}
+.navbar{
+  height: 80px;
+  width:100%;
+}
