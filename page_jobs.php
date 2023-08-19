@@ -21,12 +21,21 @@
   width: 286px;
   height: 200px;
 }
+.filter{
+  text-align: right;
+}
+.fa-solid fa-filter{
+  text-align: right;
+
+}
 
     </style>
 </head>
 <body>
-    <div style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;"><u><h1>JOBS</h1></u></div>
+    <div style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;"><u><h1>JOBS</h1></u></div> 
+    <div class="filter">
     <i class="fa-solid fa-filter"></i>
+    <button type="submit">Filter</button></div>
     <div class="cards">
     <div class="card" style="width: 18rem;margin-left: 10px;">
     <div class=photo>
