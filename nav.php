@@ -1,4 +1,4 @@
-<?php include("head.php") ?>
+<?php include("header.php") ?>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"><img src="cvlogo.jpg" alt="Bootstrap" width="60" height="54"></a>
@@ -28,4 +28,4 @@
   </div>
 </nav>
 
-<?php include("foot.php") ?>
+<?php include("footer.php") ?>
