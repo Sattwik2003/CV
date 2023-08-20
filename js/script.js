@@ -10,9 +10,13 @@ signInBUtton.addEventListener("click", () => [
   container.classList.remove("right-panel-active")
 ]);
 
-document.getElementById('eye').remove();
+
 function pass(){
-  document.getElementById('eye').add();
+  document.getElementById('eye').style.display="block";
+}
+function notpass(){
+	document.getElementById('eye').style.display="none";
+
 }
 
 

@@ -118,7 +118,9 @@
 .button:active {
   background: linear-gradient(90deg, #4158d0, #f441a5, #ffcc70, #4158d0);
 }
-/*.container {
+
+
+#container {
   background-color: #ffffff;
   border-radius: 2em;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -127,7 +129,7 @@
   width: 650px;
   max-width: 100%;
   min-height: 550px;
-}*/
+}
 .form {
   position: absolute;
   top: 0;
@@ -146,11 +148,11 @@
   z-index: 2;
   opacity: 1;
 }
-.container.right-panel-active .sign_in {
+#container.right-panel-active .sign_in {
   transform: translateX(100%);
   opacity: 0;
 }
-.container.right-panel-active .sign_up {
+#container.right-panel-active .sign_up {
   transform: translateX(100%);
   opacity: 1;
   z-index: 5;
@@ -218,16 +220,16 @@
   right: 0;
   transform: translateX(0);
 }
-.container.right-panel-active .overlay-container {
+#container.right-panel-active .overlay-container {
   transform: translateX(-100%);
 }
-.container.right-panel-active .overlay {
+#container.right-panel-active .overlay {
   transform: translateX(50%);
 }
-.container.right-panel-active .overlay-left {
+#container.right-panel-active .overlay-left {
   transform: translateX(0);
 }
-.container.right-panel-active .overlay-right {
+#container.right-panel-active .overlay-right {
   transform: translateX(20%);
 }
 .social-container {
@@ -249,6 +251,7 @@
   position: relative;
   left: 90px;
   margin-top: -16%;
+  display: none;
 }
 #msg{
   color: red;

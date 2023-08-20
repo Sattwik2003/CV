@@ -68,7 +68,7 @@
           <label for="floatingInput">Email address</label>
         </div>
         <div class="form-floating">
-          <input type="password" class="form-control" id="Password" placeholder="Password" onclick="pass()"><i class="fa-solid fa-eye" id="eye"></i>
+          <input type="password" class="form-control" id="Password" placeholder="Password" onmouseover="pass()" onmouseout="notpass()"><i class="fa-solid fa-eye" id="eye"></i>
           <label for="floatingPassword">Password</label>
           <span id="msg"></span>
         </div>
